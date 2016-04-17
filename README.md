@@ -42,6 +42,29 @@ This build currently only build the binary for osx.
 `make build-mac-local`
 
 ## Run
+
+### Run directly from bash without checking out the repo!
+You can run the server without even checking out the source thanks to golang `go get`! You only need docker.
+Run:
+
+```sh
+docker build -t github.com/corentone/mydesk:readmebuild - << _EOF_
+FROM golang:1.6
+
+# Get & Install the webserver app
+RUN go get -v github.com/corentone/mydesk/...
+
+# Expose the application on port 8080
+EXPOSE 8000
+
+# Set the entry point of the container to the bee command that runs the
+# application and watches for changes
+CMD ["mydeskserver"]
+_EOF_
+
+docker run -p 8000:8000 github.com/corentone/mydesk:readmebuild
+```
+
 ### Inside a Docker container:
 In order to run this command, the docker container image must have been created (`make build-container`)
 `make container-run`
