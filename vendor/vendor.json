@@ -1,0 +1,59 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "context",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "XxSDNaJf0LpjvMapDmmhNIlf+MQ=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "5caaac4c5c712a9e7a7de29e6c24ef46c753017f",
+			"revisionTime": "2016-04-14T23:39:28Z"
+		},
+		{
+			"checksumSHA1": "UsILDoIB2S7ra+w2fMdb85mX3HM=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "5caaac4c5c712a9e7a7de29e6c24ef46c753017f",
+			"revisionTime": "2016-04-14T23:39:28Z"
+		},
+		{
+			"checksumSHA1": "PHv9FNb7YavJWtAHcY6ZgXmkmHs=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "5caaac4c5c712a9e7a7de29e6c24ef46c753017f",
+			"revisionTime": "2016-04-14T23:39:28Z"
+		},
+		{
+			"checksumSHA1": "aRLVUN+Nl80oWpYQyV91fS7h/E0=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "f0a097ddac24fb00e07d2ac17f8671423f3ea47c",
+			"revisionTime": "2016-04-13T04:01:00Z"
+		},
+		{
+			"checksumSHA1": "b0T0Hzd+zYk+OCDTFMps+jwa/nY=",
+			"path": "github.com/manucorporat/sse",
+			"revision": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d",
+			"revisionTime": "2016-01-26T18:01:36Z"
+		},
+		{
+			"checksumSHA1": "pancewZW3HwGvpDwfH5Imrbadc4=",
+			"path": "golang.org/x/net/context",
+			"revision": "fb93926129b8ec0056f2f458b1f519654814edf0",
+			"revisionTime": "2016-04-12T22:48:50Z"
+		},
+		{
+			"checksumSHA1": "9+TP2NPlTWXoRndq02uwZW26AqI=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "014792cf3e266caff1e916876be12282b33059e0",
+			"revisionTime": "2016-02-23T20:26:51Z"
+		},
+		{
+			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
+			"revisionTime": "2016-03-01T20:40:22Z"
+		}
+	],
+	"rootPath": "github.com/corentone/mydesk"
+}
