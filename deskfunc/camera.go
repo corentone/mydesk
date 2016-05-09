@@ -1,11 +1,16 @@
-package deskops
+package deskfunc
 
 import (
 	"math/rand"
 	"time"
 )
 
-func RandomString(strlen int) string {
+func randomString(strlen int) string {
+
+	if strlen <= 0 {
+		return ""
+	}
+
 	rand.Seed(time.Now().UTC().UnixNano())
 	const chars = "abcdefghijklmnopqrstuvwxyz0123456789"
 	result := make([]byte, strlen)
@@ -15,6 +20,6 @@ func RandomString(strlen int) string {
 	return string(result)
 }
 
-func take_picture() string {
+func TakePicture() string {
 	return ""
 }
